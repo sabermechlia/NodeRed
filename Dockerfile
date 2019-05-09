@@ -1,4 +1,4 @@
-FROM nodered/node-red-docker
+FROM nodered/node-red-docker:rpi
 MAINTAINER Nicolas Besson <billounet@gmail.com>
 LABEL version="1.0" \
       description="Node-RED image for Cloud server with mongoDB and associated node installed"
